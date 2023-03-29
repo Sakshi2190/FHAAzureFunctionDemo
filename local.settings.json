@@ -1,0 +1,26 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "FHIRTransformationURL": "https://dmov5corolardst-fhirtransform.azurewebsites.net",
+    "ExceptionURL": "https://dmov5corolardst-exception.azurewebsites.net",
+    "LoggingURL": "https://dmov5corolardst-logging.azurewebsites.net",
+    "FHIR_Transform_Xslt": "Message-Transformations/Fhir_bundle_Json_To_Fhir_bundle_Xml.xslt",
+    "FHIR_To_HL7_Transform_Xslt_ORU": "Message-Transformations/Fhir_Bundle_Schema_To_ORU_All_231_Outbound.xslt",
+    "FunctionAppName": "FHADemoDurableFunction",
+    "ResourceName": "FHA_Orchestrator",
+    "CorolarAccessTokenURL": "https://dmov5corolardst-accesstokens.azurewebsites.net",
+    "CorolarClientID": "demo-FHA-Client",
+    "CorolarClientSecret": "Demo@1234",
+    "OrchestratorStateCheckInterval": 10000,
+    "ServiceBusConnection": "Endpoint=sb://dmov5corolardstsb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=2H6dDXiEVW5y7UzTZ8J9V3l2XNiamzi0adYTK5/f50k=",
+    "FHA_SBQueue": "receivefhirmessagequeue",
+    "OutputFormat": "XML",
+    "FHA_SendHL7Queue": "sendHL7messagetomllp",
+    "AzureWebJobsServiceBus": "Endpoint=sb://dmov5corolardstsb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=2H6dDXiEVW5y7UzTZ8J9V3l2XNiamzi0adYTK5/f50k=",
+    "Corolar_ParserUrl": "https://dmov5corolardst-hl7parser.azurewebsites.net",
+    "HL7Schema": "ORU_All_231_Outbound_Olis.xsd",
+    "PreProcessorEndpoint": "https://fhirpreprocessor.azurewebsites.net/api/FHIR-PreProcessor-HttpTrigger?code=g0MLKV1eZdLcEs7fYGh0HvfEc5y3mTGyPfxuoBYtHVESAzFuG-NubQ=="
+  }
+}
